@@ -35,7 +35,9 @@ source:
 type: UNITY_CATALOG
 workspace_url: <databricks_workspace_url>
 ```
-
+PolicyWeaver is available on PyPi and can be installed via pip install policy-weaver.
+If you run this from a notebook environment, you can do a pip install in a code section before you run PolicyWeaver.
+ 
 With PolicyWeaver installed and the configuration file ready, we start by reading the configuration file and running the Weaver.
 
 ```python
